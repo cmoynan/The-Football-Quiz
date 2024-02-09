@@ -1,7 +1,72 @@
 body {
-    background-color: aqua;
+  background-color: orange;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  width: 85vw;
+  padding-left: 0rem;
 }
 
-h1 {
-    text-align: center;
+
+.quiz-container {
+  box-sizing: border-box;
+  width: 80vw;
+  max-width: 80%;
+  height: 95vh;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: beige;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#question-text {
+  font-size: large;
+  padding-top: 2rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.choice {
+  font-size: 1em;
+  display: block;
+  margin: 5px 5px;
+  padding: .5em .75em;
+  background-color: #81bde4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.choice:hover {
+  background-color: rgb(8, 130, 170);
+}
+
+#feedback {
+  font-size: xx-large;
+  text-align: center;
+}
+
+#restart-button {
+  font-size: 1em;
+  margin: 5px 5px;
+  padding: .5em .75em;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+}
+
+#restart-button:hover {
+  color: red;
 }
