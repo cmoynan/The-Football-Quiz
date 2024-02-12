@@ -4,16 +4,19 @@ body {
   font-weight: 200;
   font-style: normal;
   width: 85vw;
-  padding-left: 0rem;
+}
+
+h1 {
+  font-size: xx-large;
 }
 
 
 .quiz-container {
   box-sizing: border-box;
-  width: 80vw;
-  max-width: 80%;
+  width: 90vw;
+  max-width: 95%;
   height: 95vh;
-  margin: 0 auto;
+  margin: 20px;
   padding: 1rem;
   background-color: beige;
   border-radius: 10px;
@@ -55,8 +58,8 @@ body {
   text-align: center;
 }
 
-#restart-button {
-  font-size: 1em;
+#restart-function {
+  font-size:x-large;
   margin: 5px 5px;
   padding: .5em .75em;
   background-color: #3498db;
@@ -65,6 +68,12 @@ body {
   border-radius: 5px;
   cursor: pointer;
   display: flex;
+  justify-content: center;
+}
+
+#restart-function:hover {
+  color: red;
+
 }
 
 #restart-button:hover {
